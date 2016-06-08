@@ -3,12 +3,10 @@
  */
 (function(){
 'use strict';
-'use strict';
 
 /*jshint unused:false*/
 var xtForm = angular.module('xtForm', []);
 xtForm.directive('ngModel', ["xtFormConfig", "$rootScope", "$interpolate", "$document", function (xtFormConfig, $rootScope, $interpolate, $document) {
-    'use strict';
 
     var UNTOUCHED_CLASS = 'ng-untouched',
         TOUCHED_CLASS = 'ng-touched';
